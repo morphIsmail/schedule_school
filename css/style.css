@@ -1,0 +1,23 @@
+body {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 50px;
+}
+h1 {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+h2 {
+  margin-bottom: 30px;
+}
+pre {
+  margin: 0;
+}
+.table>:not(caption)>*>* {
+  padding: 1px 0.5rem;
+  font-size: 15px;
+}
+.table tr.title th {
+  padding: 15px 0 !important;
+  font-size: 18px;
+}
