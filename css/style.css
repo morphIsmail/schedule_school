@@ -1,7 +1,9 @@
 body {
-  background-color: #333;
-  color: #fff;
-  padding: 50px 50px;
+  /* background-color: #333; */
+  /* color: #fff; */
+  padding: 20px 20px 0 20px;
+  background-image: url(../media/bg1.jpeg);
+  background-size: cover;
 }
 h1 {
   margin-top: 150px;
@@ -13,11 +15,14 @@ h2 {
 pre {
   margin: 0;
 }
+body div.container-fluid table.table {
+  --bs-table-bg: #ffffffc4;
+}
 .table>:not(caption)>*>* {
   padding: 1px 0.5rem;
-  font-size: 15px;
+  font-size: 10px;
 }
 .table tr.title th {
-  padding: 15px 0 !important;
-  font-size: 18px;
+  padding: 8px 0 !important;
+  font-size: 13px;
 }

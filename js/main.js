@@ -14,22 +14,22 @@ console.log(day_week)
 
 // Видео по временам года
 
-switch (month) {
-  case 11, 0, 1:
-  // зима
-  document.querySelector('source').setAttribute('src', 'media/winter.mp4')
-  case 2, 3, 4:
-  // весна
-  document.querySelector('source').setAttribute('src', 'media/spring.mp4')
-  case 5, 6, 7:
-  // лето
-  document.querySelector('source').setAttribute('src', 'media/summer.mp4')
-  case 8, 9, 10:
-  // осень
-  document.querySelector('source').setAttribute('src', 'media/autumn.mp4')
-  default:
-    console.log("Error")
-}
+// switch (month) {
+//   case 11, 0, 1:
+//   // зима
+//   document.querySelector('source').setAttribute('src', 'media/winter.mp4')
+//   case 2, 3, 4:
+//   // весна
+//   document.querySelector('source').setAttribute('src', 'media/spring.mp4')
+//   case 5, 6, 7:
+//   // лето
+//   document.querySelector('source').setAttribute('src', 'media/summer.mp4')
+//   case 8, 9, 10:
+//   // осень
+//   document.querySelector('source').setAttribute('src', 'media/autumn.mp4')
+//   default:
+//     console.log("Error")
+// }
 
 
 let table = document.querySelector('.table') // таблица для вывода разсписания
